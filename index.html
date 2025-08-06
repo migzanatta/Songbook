@@ -7,6 +7,8 @@
     <link rel="manifest" href="manifest.json" />
     <meta name="theme-color" content="#111827" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Babel Standalone for in-browser TSX/JSX transformation -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
     <style>
       /* For smooth scrolling on touch devices */
       .smooth-scrolling {
@@ -54,6 +56,8 @@
         });
       }
     </script>
+    <!-- Entry point for the React application, processed by Babel -->
+    <script type="text/babel" data-type="module" src="index.tsx"></script>
   <script type="module" src="/index.tsx"></script>
 </body>
 </html>
