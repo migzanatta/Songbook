@@ -10,9 +10,9 @@
   },
   "dependencies": {
     "react": "^19.1.1",
-    "react-dom": "^19.1.1",
     "pdfjs-dist": "4.4.168",
-    "idb": "8"
+    "idb": "8",
+    "react-dom": "^19.1.1"
   },
   "devDependencies": {
     "@types/node": "^22.14.0",

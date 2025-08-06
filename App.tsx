@@ -83,6 +83,7 @@ const App: React.FC = () => {
             const renderContext = {
                 canvasContext: context,
                 viewport: viewport,
+                canvas: canvas,
             };
             await page.render(renderContext).promise;
             pages.push(canvas.toDataURL('image/png')); // Use PNG for better quality

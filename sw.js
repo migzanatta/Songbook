@@ -1,4 +1,4 @@
-const CACHE_NAME = 'sheet-music-reader-v1';
+const CACHE_NAME = 'sheet-music-reader-v2';
 
 // On install, we don't pre-cache anything; we let the fetch handler do it dynamically.
 self.addEventListener('install', (event) => {

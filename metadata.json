@@ -1,5 +1,5 @@
-
 {
   "name": "Sheet Music Reader",
-  "description": "An application to view, organize, and auto-scroll your sheet music PDFs. Create playlists and enjoy a full-screen, focused practice session."
+  "description": "An application to view, organize, and auto-scroll your sheet music PDFs. Create playlists and enjoy a full-screen, focused practice session.",
+  "requestFramePermissions": []
 }
